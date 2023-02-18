@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import background from "../pics/aurora.jpg";
 
 const WelcomeScreen = () => {
   return (

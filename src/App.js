@@ -1,4 +1,5 @@
-import { Container, CssBaseline } from "@mui/material";
+import { Container } from "@mui/material";
+import "./App.scss";
 import { containerStyle } from "./theme/customStyles";
 import WeatherBox from "./pages/WeatherBox";
 import { StaticCityBox } from "./components";
@@ -6,7 +7,6 @@ import { StaticCityBox } from "./components";
 const App = () => {
   return (
     <>
-      <CssBaseline />
       <Container sx={containerStyle}>
         <StaticCityBox />
         <WeatherBox />
@@ -18,3 +18,4 @@ const App = () => {
 export default App;
 
 //  Dopo questo progetto posso confermare che REACT mi fa cagare
+//  ma ho anche sperimentato molto su alcuni metodi e librerie che non conoscevo

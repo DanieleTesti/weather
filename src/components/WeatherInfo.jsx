@@ -44,12 +44,12 @@ const WeatherInfo = ({ weatherData }) => {
 
       {/* NON CAPISCO PER QUALE MOTIVO QUI NON SERVE LA CONVERSIONE MENTRE NELLA PAGINA STATICA SI */}
       <Typography variant="h1" fontWeight="500" mt={5}>
-        {main?.temp.toFixed()}°c
+        {(((main?.temp - 32) * 5) / 9).toFixed()}°c
       </Typography>
 
       <Typography component="p" mb={5}>
-        Min: {main?.temp_min.toFixed()}°c | Max:
-        {main?.temp_max.toFixed()}°c
+        Min: {(((main?.temp_min - 32) * 5) / 9).toFixed()}°c | Max:
+        {(((main?.temp_max - 32) * 5) / 9).toFixed()}°c
       </Typography>
 
       {/* Utilizzato per creare la linea con il testo dentro */}
