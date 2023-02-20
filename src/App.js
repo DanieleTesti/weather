@@ -1,5 +1,4 @@
 import { Container } from "@mui/material";
-import "./App.scss";
 import { containerStyle } from "./theme/customStyles";
 import WeatherBox from "./pages/WeatherBox";
 import { StaticCityBox } from "./components";
@@ -18,4 +17,4 @@ const App = () => {
 export default App;
 
 //  Dopo questo progetto posso confermare che REACT mi fa cagare
-//  ma ho anche sperimentato molto su alcuni metodi e librerie che non conoscevo
+//  ma ho sperimentato molto su alcuni metodi e librerie che non conoscevo
